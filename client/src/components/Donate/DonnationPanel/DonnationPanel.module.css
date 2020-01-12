@@ -1,0 +1,130 @@
+.Wrapper{
+    color: rgba(36, 36, 36, 0.699);
+}
+
+.ammountAdder {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.donateTo {
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.donateTo span {
+    color: rgba(235, 116, 19, 0.404);
+}
+
+.more{
+
+    height: 50px;
+    width: 50px;
+}
+
+.less{
+
+    height: 50px;
+    width: 50px;
+}
+
+
+.selectAmount {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: left;
+    justify-items: left;
+}
+
+.selectText {
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+.btn {
+    position: relative;
+    
+    display: block;
+    margin: 30px auto;
+    padding: 0;
+  
+    overflow: hidden;
+  
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    padding: 15px;
+    background-color: #eb811e;
+    color: #ecf0f1;
+    
+    transition: background-color .3s;
+  }
+  
+  .btn:hover, .btn:focus {
+    background-color: #27ae60;
+  }
+  
+  .btn > * {
+    position: relative;
+  }
+  
+  .btn span {
+    display: block;
+    padding: 12px 24px;
+  }
+  
+  .btn:before {
+    content: "";
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    display: block;
+    width: 0;
+    padding-top: 0;
+      
+    border-radius: 100%;
+    
+    background-color: rgba(236, 240, 241, .3);
+    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .btn:active:before {
+    width: 120%;
+    padding-top: 120%;
+    
+    transition: width .2s ease-out, padding-top .2s ease-out;
+  }
+
+
+
+  .btnAdderWrap {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center;
+      justify-content: center;
+  }
+
+  .btnAdderWrap button{
+    background: rgb(235, 184, 126);
+    border: none;
+    color: rgba(51, 51, 51, 0.767);
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100px;
+    border-radius: 30px;
+}
+

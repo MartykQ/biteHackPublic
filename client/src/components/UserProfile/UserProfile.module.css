@@ -1,0 +1,88 @@
+.Wrapper {
+    display: grid;
+}
+
+.InfoTop {
+    padding-top: 70px;
+    background: linear-gradient(to right,#e66465, #f09354);
+    padding-bottom: 50px;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.36), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+.Avatar {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.AvatarImg {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 3px solid white;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.UserNameInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.Name, .Surname {
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+}
+
+.NickName {
+    font-size: 20px;
+    text-align: center;
+    color: rgba(241, 241, 241, 0.534);
+}
+
+.InfoBottom {
+    padding-top: 30px;
+    background: linear-gradient(#e4e4e4, #f7efeb);
+    padding-bottom: 50px;
+    height: 400px;
+    color: rgb(54, 54, 54);
+}
+
+.BottomValue, .BottomDesc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    font-size: 30px;
+}
+
+.LaderBut {
+    display: grid;
+    justify-items: center;
+    position: relative;
+    bottom: 50px;
+    display: block;
+    width: 190px;
+    color: #f09354;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    height: 50px;
+    background: white;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px ;
+    font-weight: 600;
+}
+
+.LaderBut div {
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+.amountLogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
